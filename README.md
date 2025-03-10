@@ -1,3 +1,3 @@
 # chart-agent
 
-- Project in progress
+## Project in Progress
