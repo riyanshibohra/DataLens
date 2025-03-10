@@ -3,6 +3,7 @@ langgraph-sdk
 langgraph-checkpoint-sqlite
 langsmith
 langchain-community
+langchain_experimental
 langchain-core
 langchain-openai
 notebook
