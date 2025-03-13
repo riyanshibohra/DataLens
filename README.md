@@ -6,8 +6,6 @@ This project implements an AI agent that can generate and analyze charts based o
 
 </div>
 
-## Technologies
-
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
   <img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph" height="25">
   <img src="https://img.shields.io/badge/-LangChain-green" alt="LangChain" height="25">
