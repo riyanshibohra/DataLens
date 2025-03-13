@@ -8,7 +8,7 @@ This project implements an AI agent that can generate and analyze charts based o
 
 ## Technologies
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
   <img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph" height="25">
   <img src="https://img.shields.io/badge/-LangChain-green" alt="LangChain" height="25">
   <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" alt="Python" height="25">
