@@ -25,7 +25,7 @@
 
 # Overview
 
-VisualizeAI is an advanced agentic framework built on LangGraph that transforms natural language queries into data-driven visualizations. The system autonomously navigates the web using Tavily search and BeautifulSoup scraping to gather relevant information, then intelligently processes and visualizes this data through customized charts—all orchestrated by a sophisticated AI agent powered by OpenAI's models.
+DataLens is an advanced agentic framework built on LangGraph that transforms natural language queries into data-driven visualizations. The system autonomously navigates the web using Tavily search and BeautifulSoup scraping to gather relevant information, then intelligently processes and visualizes this data through customized charts—all orchestrated by a sophisticated AI agent powered by OpenAI's models.
 
 ## Core Capabilities
 
@@ -40,8 +40,8 @@ VisualizeAI is an advanced agentic framework built on LangGraph that transforms 
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/yourusername/VisualizeAI.git
-   cd VisualizeAI
+   git clone https://github.com/yourusername/DataLens.git
+   cd DataLens
    ```
 
 2. Install dependencies:
