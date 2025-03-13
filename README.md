@@ -1,6 +1,6 @@
 <div align="center">
 
-# VisualizeAI: The Intelligent Chart Generator
+# VisualizeAI: The Intelligent Chart Generator 📊
 
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
   <img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph" height="25">
@@ -16,18 +16,16 @@
   <img src="https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" height="25">
 </div>
 
-## Turn your words into stunning data visuals, effortlessly! 📊✨
+## Turn your words into stunning data visuals, effortlessly! ✨
 
-Smart web scraping | Customizable charts | Natural conversation interface | Intelligent data analysis 
+  <p align="center">
+    <b>Smart web scraping | Customizable charts | Natural conversation interface | Intelligent data analysis</b>
+  </p>
 </div>
 
 # Overview
 
 VisualizeAI is an advanced agentic framework built on LangGraph that transforms natural language queries into data-driven visualizations. The system autonomously navigates the web using Tavily search and BeautifulSoup scraping to gather relevant information, then intelligently processes and visualizes this data through customized charts—all orchestrated by a sophisticated AI agent powered by OpenAI's models.
-
-## Tech Stack
-
-
 
 ## Core Capabilities
 
