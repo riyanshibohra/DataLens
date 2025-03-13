@@ -7,18 +7,20 @@ This project implements an AI agent that can generate and analyze charts based o
 </div>
 
 ## Technologies
-<img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph">
-<img src="https://img.shields.io/badge/-LangChain-green" alt="LangChain">
-<img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/-OpenAI%20API-412991?logo=openai&logoColor=white" alt="OpenAI">
-<img src="https://img.shields.io/badge/-BeautifulSoup-orange" alt="BeautifulSoup">
-<img src="https://img.shields.io/badge/-PythonREPL-yellow" alt="PythonREPL">
-<img src="https://img.shields.io/badge/-Matplotlib-11557c" alt="Matplotlib">
-<img src="https://img.shields.io/badge/-Seaborn-5c7da2" alt="Seaborn">
-<img src="https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white" alt="Pandas">
-<img src="https://img.shields.io/badge/-Tavily-purple" alt="Tavily">
-<img src="https://img.shields.io/badge/-LangSmith-red" alt="LangSmith">
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
+  <img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph" height="25">
+  <img src="https://img.shields.io/badge/-LangChain-green" alt="LangChain" height="25">
+  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" alt="Python" height="25">
+  <img src="https://img.shields.io/badge/-OpenAI%20API-412991?logo=openai&logoColor=white" alt="OpenAI" height="25">
+  <img src="https://img.shields.io/badge/-BeautifulSoup-orange" alt="BeautifulSoup" height="25">
+  <img src="https://img.shields.io/badge/-PythonREPL-yellow" alt="PythonREPL" height="25">
+  <img src="https://img.shields.io/badge/-Matplotlib-11557c" alt="Matplotlib" height="25">
+  <img src="https://img.shields.io/badge/-Seaborn-5c7da2" alt="Seaborn" height="25">
+  <img src="https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" height="25">
+  <img src="https://img.shields.io/badge/-Tavily-purple" alt="Tavily" height="25">
+  <img src="https://img.shields.io/badge/-LangSmith-red" alt="LangSmith" height="25">
+</div>
 
 ## Core Capabilities
 
