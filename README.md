@@ -1,15 +1,34 @@
+<div align="center">
+
 # VisualizeAI: The Intelligent Chart Generator
 
 This project implements an AI agent that can generate and analyze charts based on data. The agent utilizes OpenAI's model APIs, LangGraph, and various tools to process data, create visualizations, and answer questions about the data.
 
-## Features
-- Use of LangGraph for building the agents.
-- Use of OpenAI's model APIs for the LLM.
-- Web scraping and relevant data extraction
-- Chart generation using matplotlib and seaborn
-- Natural language interaction with charts
-- Question answering about data and visualizations
-- Integration with LangSmith for tracing and debugging
+</div>
+
+## Technologies
+
+![LangGraph](https://img.shields.io/badge/-LangGraph-blue)
+![LangChain](https://img.shields.io/badge/-LangChain-green)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI%20API-412991?logo=openai&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-orange)
+![PythonREPL](https://img.shields.io/badge/-PythonREPL-yellow)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c)
+![Seaborn](https://img.shields.io/badge/-Seaborn-5c7da2)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white)
+![Tavily](https://img.shields.io/badge/-Tavily-purple)
+![LangSmith](https://img.shields.io/badge/-LangSmith-red)
+
+
+## Core Capabilities
+
+- Smart workflow management using LangGraph and LangChain to coordinate different AI tasks
+- Powered by OpenAI's GPT models to understand your requests and generate helpful responses
+- Intelligent web scraping that can collect and organize data from websites
+- Beautiful charts created with matplotlib and seaborn that you can customize
+- Natural conversation interface to create and modify charts through simple text commands
+- Comprehensive monitoring with LangSmith to track performance and troubleshoot issues
 
 ## Setup
 
@@ -27,6 +46,7 @@ This project implements an AI agent that can generate and analyze charts based o
    LANGSMITH_API_KEY=your_langsmith_api_key
    LANGSMITH_PROJECT="chart-agent"
    ```
+4. Run the main script: `test.ipynb`
 
 ## Usage
 
@@ -37,10 +57,18 @@ The main functionality is demonstrated in `test.ipynb`. The notebook illustrates
 3. Ask questions about the charts and data
 4. Use the agent to perform complex data analysis tasks
 
+### Agents Overview
+
+- **Supervisor Agent**: Supervises the research agent to ensure the output is relevant and sufficient for generating a chart. It evaluates the summary and reasoning from the research agent and decides whether to proceed with chart generation or request further information.
+
+- **Research Agent**: Researches the web for information relevant to the user query. It utilizes web search and web scraping tools to gather data and passes the summary to the supervisor agent.
+
+- **Chart Agent**: Generates charts based on the summary provided by the research agent. It uses a code generation tool to create the necessary code for chart creation, executes the code, and generates a chart description.
+
 ## Components
 
 - **Data Processing**: Tools for loading, cleaning, and analyzing data
 - **Chart Generation**: Functions to create various types of charts based on data
-- **Agent**: LangChain-based agent that can understand requests and utilize appropriate tools
+- **Agent**: LangGraph-based agent that can understand requests and utilize appropriate tools
 - **Tools**: Custom tools for data manipulation, chart creation, and analysis
 
