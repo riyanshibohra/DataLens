@@ -1,14 +1,12 @@
-# chart-agent
+# VisualizeAI: The Intelligent Chart Generator
 
-## In progress
-# Chart Agent
-
-This project implements an AI agent that can generate and analyze charts based on data. The agent uses OpenAI's models, LangChain, and various tools to process data, create visualizations, and answer questions about the data.
+This project implements an AI agent that can generate and analyze charts based on data. The agent utilizes OpenAI's model APIs, LangGraph, and various tools to process data, create visualizations, and answer questions about the data.
 
 ## Features
-
-- Data loading and preprocessing
-- Chart generation using matplotlib
+- Use of LangGraph for building the agents.
+- Use of OpenAI's model APIs for the LLM.
+- Web scraping and relevant data extraction
+- Chart generation using matplotlib and seaborn
 - Natural language interaction with charts
 - Question answering about data and visualizations
 - Integration with LangSmith for tracing and debugging
@@ -32,7 +30,7 @@ This project implements an AI agent that can generate and analyze charts based o
 
 ## Usage
 
-The main functionality is demonstrated in `test.ipynb`. The notebook shows how to:
+The main functionality is demonstrated in `test.ipynb`. The notebook illustrates how to:
 
 1. Load and preprocess data
 2. Generate charts based on the data
@@ -43,12 +41,6 @@ The main functionality is demonstrated in `test.ipynb`. The notebook shows how t
 
 - **Data Processing**: Tools for loading, cleaning, and analyzing data
 - **Chart Generation**: Functions to create various types of charts based on data
-- **Agent**: LangChain-based agent that can understand requests and use appropriate tools
+- **Agent**: LangChain-based agent that can understand requests and utilize appropriate tools
 - **Tools**: Custom tools for data manipulation, chart creation, and analysis
 
-## Future Improvements
-
-- Support for more chart types
-- Enhanced data preprocessing capabilities
-- Improved natural language understanding
-- Integration with more data sources
