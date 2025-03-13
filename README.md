@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/-LangSmith-red" alt="LangSmith" height="25">
   <img src="https://img.shields.io/badge/-Matplotlib-11557c" alt="Matplotlib" height="25">
   <img src="https://img.shields.io/badge/-Seaborn-5c7da2" alt="Seaborn" height="25">
-  <img src="https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" height="25">
 </div>
 
 ## Turn your words into stunning data visuals, effortlessly! ✨
