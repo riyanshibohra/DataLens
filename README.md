@@ -1,25 +1,46 @@
 <div align="center">
 
 # DataLens: The Intelligent Chart Generator 📊
-
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
-  <img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph" height="25">
-  <img src="https://img.shields.io/badge/-LangChain-green" alt="LangChain" height="25">
-  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" alt="Python" height="25">
-  <img src="https://img.shields.io/badge/-OpenAI%20API-412991?logo=openai&logoColor=white" alt="OpenAI" height="25">
-  <img src="https://img.shields.io/badge/-BeautifulSoup-orange" alt="BeautifulSoup" height="25">
-  <img src="https://img.shields.io/badge/-PythonREPL-yellow" alt="PythonREPL" height="25">
-  <img src="https://img.shields.io/badge/-Tavily-purple" alt="Tavily" height="25">
-  <img src="https://img.shields.io/badge/-LangSmith-red" alt="LangSmith" height="25">
-  <img src="https://img.shields.io/badge/-Matplotlib-11557c" alt="Matplotlib" height="25">
-  <img src="https://img.shields.io/badge/-Seaborn-5c7da2" alt="Seaborn" height="25">
-  <img src="https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" height="25">
+  <a href="https://github.com/langgraph" target="_blank">
+    <img src="https://img.shields.io/badge/LangGraph-0072B8?style=for-the-badge&logo=github&logoColor=white" alt="LangGraph" height="30">
+  </a>
+  <a href="https://github.com/langchain" target="_blank">
+    <img src="https://img.shields.io/badge/LangChain-3D9970?style=for-the-badge&logo=github&logoColor=white" alt="LangChain" height="30">
+  </a>
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="30">
+  </a>
+  <a href="https://openai.com/api/" target="_blank">
+    <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" height="30">
+  </a>
+  <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
+    <img src="https://img.shields.io/badge/BeautifulSoup-FF7F50?style=for-the-badge&logo=python&logoColor=white" alt="BeautifulSoup" height="30">
+  </a>
+  <a href="https://replit.com/languages/python3" target="_blank">
+    <img src="https://img.shields.io/badge/PythonREPL-F7DF1E?style=for-the-badge&logo=python&logoColor=black" alt="PythonREPL" height="30">
+  </a>
+  <a href="https://tavily.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tavily-9B59B6?style=for-the-badge&logo=github&logoColor=white" alt="Tavily" height="30">
+  </a>
+  <a href="https://langsmith.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LangSmith-E74C3C?style=for-the-badge&logo=github&logoColor=white" alt="LangSmith" height="30">
+  </a>
+  <a href="https://matplotlib.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" height="30">
+  </a>
+  <a href="https://seaborn.pydata.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Seaborn-5c7da2?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" height="30">
+  </a>
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" height="30">
+  </a>
 </div>
 
 ## Turn your words into stunning data visuals, effortlessly! ✨
 
   <p align="center">
-    <b>Smart web scraping | Customizable charts | Natural conversation interface | Intelligent data analysis</b>
+    <b>Intelligent extraction | Custom visualizations | Advanced analysis</b>
   </p>
 </div>
 
