@@ -1,6 +1,6 @@
 <div align="center">
 
-# VisualizeAI: The Intelligent Chart Generator 📊
+# DataLens: The Intelligent Chart Generator 📊
 
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
   <img src="https://img.shields.io/badge/-LangGraph-blue" alt="LangGraph" height="25">
@@ -39,6 +39,11 @@ VisualizeAI is an advanced agentic framework built on LangGraph that transforms 
 ## Setup
 
 1. Clone this repository
+   ```bash
+   git clone https://github.com/yourusername/VisualizeAI.git
+   cd VisualizeAI
+   ```
+
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
