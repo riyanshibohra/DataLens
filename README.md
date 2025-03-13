@@ -22,7 +22,7 @@
 </div>
 
 <p align="center">
-  <img src="output.png" alt="Output Visualization" width="600">
+  <img src="output.png" alt="Output Visualization" width="700">
 </p>
 
 # Overview
