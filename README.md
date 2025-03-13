@@ -23,18 +23,21 @@
   </p>
 </div>
 
+<p align="center">
+  <img src="output.png" alt="Output Visualization" width="600">
+</p>
+
 # Overview
 
 DataLens is an advanced agentic framework built on LangGraph that transforms natural language queries into data-driven visualizations. The system autonomously navigates the web using Tavily search and BeautifulSoup scraping to gather relevant information, then intelligently processes and visualizes this data through customized charts—all orchestrated by a sophisticated AI agent powered by OpenAI's models.
 
 ## Core Capabilities
 
-- Smart workflow management using LangGraph and LangChain to coordinate different AI tasks
-- Powered by OpenAI's GPT models to understand your requests and generate helpful responses
-- Intelligent web scraping that can collect and organize data from websites
-- Beautiful charts created with matplotlib and seaborn that you can customize
-- Natural conversation interface to create and modify charts through simple text commands
-- Comprehensive monitoring with LangSmith to track performance and troubleshoot issues
+- Orchestrated workflow using LangGraph to coordinate specialized agents
+- Web data collection through Tavily search and BeautifulSoup scraping
+- Dynamic chart generation with matplotlib and seaborn
+- Natural language interface for data visualization requests
+- Performance monitoring via LangSmith
 
 ## Setup
 
@@ -48,7 +51,7 @@ DataLens is an advanced agentic framework built on LangGraph that transforms nat
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up environment variables in a `.env` file:
+3. Configure environment variables in `.env`:
    ```
    OPENAI_API_KEY=your_openai_api_key
    TAVILY_API_KEY=your_tavily_api_key
@@ -57,29 +60,22 @@ DataLens is an advanced agentic framework built on LangGraph that transforms nat
    LANGSMITH_API_KEY=your_langsmith_api_key
    LANGSMITH_PROJECT="chart-agent"
    ```
-4. Run the main script: `test.ipynb`
+4. Run the notebook: `execute.ipynb`
 
-## Usage
+## Architecture
 
-The main functionality is demonstrated in `test.ipynb`. The notebook illustrates how to:
+DataLens employs a multi-agent system built on LangGraph that processes natural language queries through three specialized components:
 
-1. Load and preprocess data
-2. Generate charts based on the data
-3. Ask questions about the charts and data
-4. Use the agent to perform complex data analysis tasks
+- **Supervisor Agent**: Coordinates workflow and evaluates output quality
+- **Research Agent**: Gathers relevant data through web search and content extraction
+- **Chart Agent**: Transforms data into visualizations using dynamically generated code
 
-### Agents Overview
-
-- **Supervisor Agent**: Supervises the research agent to ensure the output is relevant and sufficient for generating a chart. It evaluates the summary and reasoning from the research agent and decides whether to proceed with chart generation or request further information.
-
-- **Research Agent**: Researches the web for information relevant to the user query. It utilizes web search and web scraping tools to gather data and passes the summary to the supervisor agent.
-
-- **Chart Agent**: Generates charts based on the summary provided by the research agent. It uses a code generation tool to create the necessary code for chart creation, executes the code, and generates a chart description.
+This architecture enables a seamless pipeline from query to visualization, with each agent making autonomous decisions within its domain while maintaining coherent workflow progression.
 
 ## Components
 
-- **Data Processing**: Tools for loading, cleaning, and analyzing data
-- **Chart Generation**: Functions to create various types of charts based on data
-- **Agent**: LangGraph-based agent that can understand requests and utilize appropriate tools
-- **Tools**: Custom tools for data manipulation, chart creation, and analysis
+- **Data Collection**: Web search and scraping tools for gathering relevant information
+- **Visualization Engine**: Code generation and execution for creating customized charts
+- **Agent Framework**: LangGraph-based coordination of specialized AI agents
+- **Tool Integration**: Modular components for data processing and visualization
 
