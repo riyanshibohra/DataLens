@@ -70,10 +70,9 @@ DataLens employs a multi-agent system built on LangGraph that processes natural 
 
 This architecture enables a seamless pipeline from query to visualization, with each agent making autonomous decisions within its domain while maintaining coherent workflow progression.
 
-## Components
 
-- **Data Collection**: Web search and scraping tools for gathering relevant information
-- **Visualization Engine**: Code generation and execution for creating customized charts
-- **Agent Framework**: LangGraph-based coordination of specialized AI agents
-- **Tool Integration**: Modular components for data processing and visualization
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
