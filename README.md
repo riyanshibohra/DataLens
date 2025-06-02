@@ -17,7 +17,7 @@
 ## Turn your words into stunning data visuals, effortlessly! ✨
 
   <p align="center">
-    <b>Intelligent extraction | Custom visualizations | Advanced analysis</b>
+    <b>Intelligent Extraction | Custom Visualizations | Advanced Analysis</b>
   </p>
 </div>
 
